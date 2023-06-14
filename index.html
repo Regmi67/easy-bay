@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Succulent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!---------------Nav bar---------------------------------------->
+    <div class="nav">
+      <img class="logo" src="./images/leaf.png" alt="pic"/>
+      <h2>EasyBay</h2>
+      <input type="search"  placeholder="SEARCH" />
+      <p>Sign In</p>
+      <button  class="cart" onclick="showAlert()" > <img class="cart" src="./images/cart-dark.png" alt="showing cart"></button>
+    </div>
+    <!---------------Sub-Nav ---------------------------------------->
+
+    <div class="sub-nav">
+      <h4>Aeonium</h4>
+      <h4>Andormischus</h4>
+      <h4>Agave</h4>
+      <h4>Aloe</h4>
+      <h4>Ancampseros</h4>
+      <h4>Aristaloe</h4>
+      <h4>More...</h4>
+    </div>
+
+    <h3>Your Source for Serious Succulent Specialties</h3>
+    <!---------------main cointainer ---------------------------------------->
+
+    <div class="main-container">
+      <div class="topsection">
+        <div class="column">
+          <p class="discover-box">Discover succ-<br> ulent varieties <br> 
+            one pot or rack<br> at a time! <br> Discover &#8594 </p>
+          <img class="changing-image" src="./images/succulents-1.jpg" alt="pic" 
+          id="imgChange" onmouseover="over()" onmouseout="out()">
+
+        </div>
+        <div class="column1">
+          <img class="aloe" src="./images/aloe-m.jpg" alt="pic">
+          <p class="soothing">Soothing Aloe &#8594</p>
+        </div>
+      </div>
+    
+      <div class="bottomsection">
+        <img class="flower" src="./images/aeonium-s.jpg" alt="pic">
+        <img class="flower" src="./images/aloe-m.jpg" alt="pic">
+        <img class="flower" src="./images/cactus-s.jpg" alt="pic">
+        <img class="flower" src="./images/echeveria-s.jpg" alt="pic">
+        <img class="flower" src="./images/sedum-s.jpg" alt="pic">
+        <img class="flower" src="./images/sempervivum-s.jpg" alt="pic">
+      </div>
+          <!---------------cookie ---------------------------------------->
+
+      <div id="bottom-cookie">
+        
+        <img class="hizard" src="./images/alert-dark.png" alt="pic">
+        <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the<br>
+        terms outlined in our <a href="#">cookie policy</a></p>
+        <button id="accept" onclick="whithnocookie()">I accept</button>          
+        
+      </div>
+    
+      
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
